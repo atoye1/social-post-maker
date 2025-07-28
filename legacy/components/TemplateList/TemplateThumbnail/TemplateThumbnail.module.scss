@@ -1,0 +1,33 @@
+.templateThumbnail {
+  height: 150px;
+  background-color: var(--template-thumb-bg);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--template-thumb-text-color);
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--template-thumb-hover-bg);
+    transition: 0.3s;
+    color: var(--template-thumb-hover-text-color);
+  }
+
+  &.active {
+    border: 3px solid var(--template-thumb-active-border);
+
+    position: relative;
+
+    .checkIcon {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      color: white;
+      background-color: var(--template-thumb-active-border);
+      padding: 5px;
+      border-radius: 50%;
+      font-size: 13px;
+    }
+  }
+}

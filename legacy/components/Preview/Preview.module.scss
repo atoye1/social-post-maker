@@ -1,0 +1,13 @@
+.postPreview {
+  background-color: var(--post-review-bg);
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  padding: 3rem;
+  border-radius: 1rem;
+  border: 1px solid var(--post-review-border-color);
+}
+.postPreviewInner {
+  background-color: #ffffff;
+  height: 100%;
+}
